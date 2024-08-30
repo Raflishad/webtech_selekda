@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Membuat tinggi body 100% dari viewport */
+            background-image: url('images\ \(3\).jpg'); /* Ganti dengan path gambar background Anda */
+            background-size: cover; /* Membuat gambar mencakup seluruh background */
+            background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 170px;
+    background-color: transparent;
+    color: white;
+
+}
+
+.navbar .logo img {
+    width: 180px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18pt;
+    margin-right: 30pt;
+}
+
+.navbar ul li a:hover {
+    text-decoration:none;
+    color: #f7da48;
+
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 30vh;
+    text-align: left;
+    color: #f7da48;
+    padding: 40px;
+    margin-left: 200px;
+    margin-top: 100px;
+
+}
+
+.jumbotron h1 {
+    font-size: 8em; 
+    margin-bottom: 30px;
+}
+
+.jumbotron p {
+    margin-left: 20px;
+    font-size: 2em;
+    color: white;
+    margin-top: 0px;
+}
+
+.jumbotron button {
+    padding: 10px 20px;
+    font-size: 1.7em;
+    color: white;
+    background-color: transparent;
+    border-color: #f7da48;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 60px;
+    width: 200px;
+    height: 80px;
+}
+
+.jumbotron button:hover {
+    background-color: #f7da48;
+
+}
+
+.jumbotron .search-container input[type="search"] {
+    margin-left: 180px;
+    opacity: 65%;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 270px;
+    height: 45px;
+}
